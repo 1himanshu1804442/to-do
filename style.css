@@ -19,7 +19,10 @@
 body, html {
     width: 100%;
     min-height: 100vh;
+    background: #10002b; /* Solid fallback */
     background: var(--bg-gradient);
+    background-attachment: fixed;
+    overscroll-behavior: none;
 }
 
 .container {
